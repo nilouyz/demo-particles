@@ -84,6 +84,7 @@ int main(int argc, char const *argv[])
                 glDrawArrays(GL_POINTS, 0, item->vcount);
                 it++;
             } else {
+                VBOPool.insert(item->VBO);
                 delete item;
                 fireWorksPool.erase(it);
             }

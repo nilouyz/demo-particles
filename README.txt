@@ -1,1 +1,1 @@
-1.项目依赖glew,glfw和glm库，运行请参照CMakeList.txt中信息编译对应的dll文件，放入指定目录 2.Shader.h来自learnopengl 3.本项目在windows系统下使用mingw730_32编译通过 4.演示结果为自动从底部向上发射不同高度不同颜色的烟花，烟花完整生命周期中绽放2次
+1.项目依赖glew,glfw和glm库，运行请参照CmakeList.txt中信息编译对应的dll文件，放入指定目录 2.Shader.h来自learnopengl 3.本项目在windows系统下使用mingw730_32编译通过 4.演示结果为自动从底部向上发射不同高度不同颜色的烟花，烟花完整生命周期中绽放2次

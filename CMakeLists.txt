@@ -2,8 +2,6 @@ include_directories(
     "./thirdParty/"
 )
 link_directories("${CMAKE_SOURCE_DIR}/libs/")
-aux_source_directory("mat" mat)
-
 
 project(demo)
 aux_source_directory("demo" demo)

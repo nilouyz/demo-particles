@@ -91,14 +91,17 @@ int main(int argc, char const *argv[])
 
         if(fireWorksPool.empty())
         {
-            fireWorksPool.push_back(buildFireWorks(VBOPool));
+            DataForDraw *newItem = buildFireWorks(VBOPool);
+            if(newItem)
+            {
+                fireWorksPool.push_back(newItem);
+            }
         }
         glfwPollEvents();
         glfwSwapBuffers(window);
         
-        glDeleteBuffers(3, VBO);
-        
     }
+    glDeleteBuffers(3, VBO);
     
     return 0;
 }

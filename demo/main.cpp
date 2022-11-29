@@ -67,7 +67,7 @@ int main(int argc, char const *argv[])
     fireWorksPool.push_back(obj);
     
 
-    Shader ourShader("../demo/a.vs","../demo/a.fs");
+    Shader ourShader("../shaders/a.vs","../shaders/a.fs");
     ourShader.use();
 
     while(!glfwWindowShouldClose(window))

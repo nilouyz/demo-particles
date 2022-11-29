@@ -1,5 +1,5 @@
 include_directories(
-    "./thirdParty/"
+    "./thirdPart/"
 )
 link_directories("${CMAKE_SOURCE_DIR}/libs/")
 

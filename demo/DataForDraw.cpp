@@ -84,7 +84,7 @@ void DataForDraw::updateVetexData()
                 this->vcount++;
                 // printf("split %f %f %f\n", angle, vx, vy);
             }
-            printf("after split has:%d\n", this->vcount);
+            // printf("after split has:%d\n", this->vcount);
         } else if (d<10.6f){
             // child fly
             float seed = rand()/(float)(RAND_MAX);

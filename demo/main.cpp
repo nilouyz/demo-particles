@@ -36,7 +36,7 @@ DataForDraw * buildFireWorks(std::set<unsigned int> pool)
         return nullptr;
     }
     Color c= getRandColor();
-    Pos p(2.0*getRand()-1.0, -1.0, 0.0);
+    Pos p(0.0, -1.0, 0.0);
     DataForDraw *obj = new DataForDraw(c,p,0.5+1.5*getRand(), 0.4+0.6*getRand(), 320, 0.1*getRand());
     obj->VBO = VBO;
     obj->initVertexData();
